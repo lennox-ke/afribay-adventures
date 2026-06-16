@@ -1,0 +1,70 @@
+
+> Afribay-Adventures@0.1.0 build
+> next build
+
+   ▲ Next.js 15.2.4
+
+   Creating an optimized production build ...
+Failed to compile.
+
+app/layout.tsx
+An error occurred in `next/font`.
+
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+- /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+- /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/index.js
+- /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack-config.js
+- /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack-build/impl.js
+- /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/compiled/jest-worker/processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
+    at /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/server/require-hook.js:55:36
+    at Function.resolve (node:internal/modules/helpers:151:19)
+    at loadPlugin (/Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:53:32)
+    at /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:185:56
+    at Array.map (<anonymous>)
+    at getPostCssPlugins (/Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:185:47)
+    at async /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/blocks/css/index.js:125:36
+    at async /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js:94:33
+    at async Span.traceAsyncFn (/Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/trace/trace.js:157:20)
+
+app/layout.tsx
+An error occurred in `next/font`.
+
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+- /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+- /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/index.js
+- /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack-config.js
+- /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack-build/impl.js
+- /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/compiled/jest-worker/processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1249:15)
+    at /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/server/require-hook.js:55:36
+    at Function.resolve (node:internal/modules/helpers:151:19)
+    at loadPlugin (/Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:53:32)
+    at /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:185:56
+    at Array.map (<anonymous>)
+    at getPostCssPlugins (/Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:185:47)
+    at async /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/config/blocks/css/index.js:125:36
+    at async /Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js:94:33
+    at async Span.traceAsyncFn (/Users/johnmwangi/Downloads/afribay-adventures-9/node_modules/next/dist/trace/trace.js:157:20)
+
+./app/accommodations/amboseli/page.tsx
+Module not found: Can't resolve '@/lib/data'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/accommodations/amboseli/page.tsx
+Module not found: Can't resolve '@/components/ui/button'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/accommodations/amboseli/page.tsx
+Module not found: Can't resolve '@/components/ui/card'
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+> Build failed because of webpack errors
